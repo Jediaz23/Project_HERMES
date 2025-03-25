@@ -6,7 +6,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="../../index3.html" class="nav-link">INICIO</a>
+        <a href="#" class="nav-link">INICIO</a>
       </li>
     </ul>
 
@@ -45,5 +45,15 @@
         </a>
       </li>
     </ul>
+    <li class="nav-item">
+      <a class="nav-link" href="logout.php" role="button">
+        <i class="fas fa-sign-out-alt"></i>
+      </a>
+    </li>
+    <li class="nav-item">
+      <form action="logout.php" method="post" class="form-inline">
+        <input type="submit" class="btn btn-link nav-link" value="Salir">
+      </form>
+    </li>
   </nav>
   <!-- /.navbar -->
